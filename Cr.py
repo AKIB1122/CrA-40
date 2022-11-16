@@ -165,7 +165,7 @@ class Main:
 		x = 111111111
 		xx = 999999999
 		idx = "100000"
-		limit = int(input("\033[0;92m [+] ENTER LIMIT \033[0;91m(5000 MAX): \033[0;92m"))
+		limit = int(input("\033[0;92m [+] ENTER LIMIT \033[0;91m(50000 MAX): \033[0;92m"))
 		if (limit)>5000:
 			exit("\n%s [!] DON'T CROSS THE LIMIT BRO :)"%(R))
 		try:
@@ -193,7 +193,7 @@ class Main:
 		x = 111111
 		xx = 999999
 		idx = "100000000"
-		limit = int(input("\033[0;92m [+] ENTER LIMIT \033[0;91m(5000 MAX): \033[0;92m"))
+		limit = int(input("\033[0;92m [+] ENTER LIMIT \033[0;91m(50000 MAX): \033[0;92m"))
 		if (limit)>5000:
 			exit("\n%s [!] DON'T CROSS THE LIMIT BRO :)"%(R))
 		try:
@@ -315,7 +315,7 @@ class Main:
 		nam = nam.replace(" ", "")
 		print("%s EXAMPLE  : %s@gmail.com, @yahoo.com, @hotmail.com ETC"%(Y,G))
 		idx = input("%s DOMAIN  : "%(B))
-		limit = int(input("\033[0;92m [+] ENTER LIMIT \033[0;91m(5000 MAX): \033[0;92m"))
+		limit = int(input("\033[0;92m [+] ENTER LIMIT \033[0;91m(50000 MAX): \033[0;92m"))
 		if (limit)>5000:
 			exit("\n%s [!] DON'T CROSS THE LIMIT BRO :)"%(R))
 		try:
@@ -418,3 +418,4 @@ if len(sys.argv) == 2:
 try:Main()
 except Exception as e:exit(str(e))
 
+d
